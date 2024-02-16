@@ -1,0 +1,58 @@
+h1 {
+  text-align: center;
+  color: rgb(228, 67, 107);
+}
+
+.slider {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.image-container {
+  height: 350px;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.number {
+  background-color: rgb(228, 67, 107);
+  margin: 4px;
+  border-radius: 50%;
+  color: #fff;
+  border: none;
+  position: relative;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.number:hover {
+  background-color: rgba(228, 67, 107, 0.623);
+}
+
+.number:active {
+  top: 1px;
+}
+
+svg {
+  width: 20px;
+  margin: 4px;
+  position: relative;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+svg:hover path {
+  fill: rgba(228, 67, 107, 0.623);
+}
+
+svg:active {
+  top: 1px;
+}/*# sourceMappingURL=style.css.map */
