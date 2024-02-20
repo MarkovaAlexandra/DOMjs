@@ -1,0 +1,28 @@
+.like {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  position: relative;
+}
+
+.like:active {
+  top: 2px;
+}
+
+.like-pic {
+  width: 30px;
+}
+
+.like-pic:hover path {
+  fill: rgb(0, 174, 255);
+}
+
+.likes {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+p {
+  font-size: 18px;
+}/*# sourceMappingURL=style.css.map */
